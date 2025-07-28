@@ -4,9 +4,7 @@ function App() {
 
 
   let dateOfBirth = "07-01-1995"
-
   const [count, setCount] = useState(0)
-
 
   function handleInc() { 
     setCount(count + 1)
@@ -22,14 +20,11 @@ function App() {
   }
 
 
-  // handleInc()
-
   return (
     <div className="parent">
       <div className="first">
 
         <p>sofia date of birth {dateOfBirth} </p>
-
         <p style={{ backgroundColor: "red", color: "white", padding: "0 15px" }}>Hi this is our first page</p>
 
         <button onClick={handleInc}>inc</button> 

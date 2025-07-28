@@ -2,3 +2,8 @@ what is state variable in react?
 
 in react we dont have dom and suppose you have a variable where the value is changing, and you want to show that value 
 in your html page. for this funcnality we can use useState hook. and this will be a state vairable
+
+
+what is props?
+props is kind of data which you are sending as an arguments in component. props can only send data to there child.
+its one way sending data technnic.
