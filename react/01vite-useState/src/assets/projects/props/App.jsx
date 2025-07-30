@@ -15,7 +15,6 @@ function App() {
   //add(10 , 20) 
   let answer = 30
 
-
   return (
     <div className="instagram">
 

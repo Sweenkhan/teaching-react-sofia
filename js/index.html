@@ -1,16 +1,47 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>e-commerce</title>
-</head>
-<body>
+  </head>
+  <body>
     <div>
-        <a href="./aboutpage.html">about</a>
-         <a href="./login.html">login</a>
-         <a href="./service.html">service</a>
-         <a href="./homepage.html">home</a>
+      <a href="./aboutpage.html">about</a>
+      <a href="./login.html">login</a>
+      <a href="./service.html">service</a>
+      <a href="./homepage.html">home</a>
     </div>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil perferendis corporis voluptatem beatae sit aperiam, reprehenderit aliquam ex laudantium fugiat sequi quia, fuga inventore tempore deleniti omnis praesentium iusto magnam!
-</body>
+    <input type="text" />
+    <button>click</button>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil perferendis
+    corporis voluptatem beatae sit aperiam, reprehenderit aliquam ex laudantium
+    fugiat sequi quia, fuga inventore tempore deleniti omnis praesentium iusto
+    magnam!
+
+    <script>
+
+
+let name = "sween"
+// let lastName = " mohd"
+
+// let fullName = name + lastName
+
+ name = ""
+console.log(name)
+
+      let input = document.querySelector("input");
+      let button = document.querySelector("button");
+
+      button.addEventListener("click", () => {
+        console.log(input.value);
+      });
+
+
+      input.addEventListener("keypress", (e)=>{
+          console.log(e.key)
+      })
+
+    </script>
+
+  </body>
 </html>
